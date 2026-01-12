@@ -6,3 +6,7 @@ node_modules
 .ruff_cache
 .vscode
 __pycache__
+
+# Claude Code backups and temporary files
+.claude/.claude-backup/
+.claude/plans/*.md
