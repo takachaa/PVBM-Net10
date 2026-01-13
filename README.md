@@ -26,8 +26,6 @@ cp -r /path/to/this-repo/.claude .
 cp -r /path/to/this-repo/.agents .
 cp -r /path/to/this-repo/docs .
 cp /path/to/this-repo/CLAUDE.md .
-cp /path/to/this-repo/PIVLoopDiagram.png .
-cp /path/to/this-repo/Top1%AgenticEngineering.png .
 
 # Initialize Git
 git init
@@ -295,13 +293,11 @@ git init
 │   │   ├── validation/     # Validation commands
 │   │   └── github_bug_fix/ # Bug fix workflow
 │   ├── reference/          # Best practices (5,110 lines)
-│   ├── PRD.md              # Example PRD (habit-tracker)
+│   ├── PRD_example.md      # Example PRD (habit-tracker)
 │   └── settings.local.json # Claude Code configuration
 ├── docs/
 │   └── rca/                # Root cause analysis docs
 ├── CLAUDE.md               # Project-specific usage guide
-├── PIVLoopDiagram.png      # Visual workflow diagram
-├── Top1%AgenticEngineering.png  # Methodology diagram
 └── README.md               # This file
 ```
 

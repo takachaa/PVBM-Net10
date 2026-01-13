@@ -264,12 +264,8 @@ Customize this file (CLAUDE.md) for your project:
 
 ## Additional Resources
 
-### Visual Diagrams
-- **PIVLoopDiagram.png**: Visual representation of the PIV workflow
-- **Top1%AgenticEngineering.png**: Methodology overview diagram
-
 ### Example PRD
-- **.claude/PRD.md**: Example product requirements document (from habit-tracker project)
+- **.claude/PRD_example.md**: Example product requirements document (from habit-tracker project)
 - Use as template for creating your own PRDs with `/create-prd`
 
 ## Notes
