@@ -1,0 +1,42 @@
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+
+# NuGet
+*.nuget.props
+*.nuget.targets
+.nuget/
+packages/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# IDE
+.idea/
+.vs/
+*.swp
+*~
+
+# macOS
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Test results
+TestResults/
+
+# Coverage
+coverage/
+*.coverage
+
+# Static installers (uploaded separately)
+static_installers/

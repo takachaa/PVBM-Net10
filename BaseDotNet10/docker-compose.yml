@@ -1,0 +1,23 @@
+services:
+  basedotnet10-db:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: stent
+      POSTGRES_PASSWORD: stentpassword
+      POSTGRES_DB: stentsoftwaredb
+    ports:
+      - "5433:5432"
+    volumes:
+      - basedotnet10_db_data:/var/lib/postgresql/data
+
+  basedotnet10-seq:
+    image: datalust/seq:latest
+    container_name: BaseDotNet10.Seq
+    environment:
+      - ACCEPT_EULA=Y
+    ports:
+      - 5342:5341
+      - 8082:80
+
+volumes:
+  basedotnet10_db_data:
